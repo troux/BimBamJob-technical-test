@@ -1,0 +1,9 @@
+.button-mowing {
+    background-color: var(--yellow);
+    color: var(--light-blue);
+    margin: 1rem;
+}
+
+.error-no-upload {
+    color: var(--error-red)
+}

@@ -1,0 +1,31 @@
+.file-upload {
+    text-align: center;
+    border: 3px dashed var(--dark-blue);
+    padding: 1.5rem;
+    position: relative;
+    cursor: pointer;
+    display: block;
+    width: 10rem;
+    margin: auto;
+    border-radius: 15px;
+    background-color: var(--light-blue);
+}
+
+.file-upload input {
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.file-upload img {
+    height: 48px;
+    width: 48px;
+    cursor: pointer;
+}
